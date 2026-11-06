@@ -1,0 +1,39 @@
+{
+  "control": {
+    "name": "control",
+    "assigned": 6000,
+    "conversions": 572,
+    "conversion_rate": 0.09533333333333334,
+    "wilson_interval": [
+      0.08815925811669632,
+      0.10302524711941614
+    ]
+  },
+  "treatment": {
+    "name": "treatment",
+    "assigned": 6000,
+    "conversions": 676,
+    "conversion_rate": 0.11266666666666666,
+    "wilson_interval": [
+      0.10491278185566254,
+      0.12091620915287342
+    ]
+  },
+  "absolute_lift": 0.017333333333333326,
+  "relative_lift": 0.1818181818181817,
+  "difference_interval": [
+    0.00641141649814129,
+    0.028265959113341337
+  ],
+  "confidence": 0.95,
+  "pooled_z_statistic": 3.110083447050744,
+  "pooled_z_p_value": 0.0018703449635128276,
+  "sample_ratio_check": {
+    "expected_control_share": 0.5,
+    "chi_square": 0.0,
+    "p_value": 1.0,
+    "alpha": 0.001,
+    "passed": true
+  },
+  "decision": "positive"
+}
